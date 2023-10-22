@@ -1,0 +1,176 @@
+/* set background color */
+body {
+    background-color: #ffe6cc;
+  }
+  
+  /* center container */
+  #container {
+    margin-top: 50px;
+    align-items: center;
+  }
+  /* style form inputs */
+#lists .form-group label {
+  font-weight: bold;
+  color: #ff6600;
+}
+
+#lists .form-control {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #ff9933;
+}
+
+#lists .form-control:focus {
+  border-color: #ff6600;
+  box-shadow: none;
+}
+
+/* style submit button */
+#lists .btn-primary {
+  background-color: #ff6600;
+  border-color: #ff6600;
+  border-radius: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#lists .btn-primary:hover {
+  background-color: #ff8533;
+  border-color: #ff8533;
+}
+
+/* add some spacing between elements */
+#lists .form-group:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+/* style the form header */
+#lists h1 {
+  font-weight: bold;
+  color: #ff6600;
+  text-shadow: 1px 1px #ffe6cc;
+  margin-bottom: 50px;
+}
+
+/* style the form border */
+#lists .form-border {
+  border: 2px solid #ff6600;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #ff8533;
+}
+
+/* style the list title */
+#lists .title {
+  font-weight: bold;
+  color: #ff6600;
+  text-shadow: 1px 1px #ffe6cc;
+  margin-bottom: 30
+
+}  
+  /* style submit button */
+  .btn-primary {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    border-radius: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff8533;
+    border-color: #ff8533;
+  }
+  
+  /* add some spacing between elements */
+  .form-group:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  
+  /* style the form header */
+  h1 {
+    font-weight: bold;
+    color: #ff6600;
+    text-shadow: 1px 1px #ffe6cc;
+    margin-bottom: 50px;
+  }
+  
+  /* style the form border */
+  .form-border {
+    border: 2px solid #ff6600;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #ff8533;
+  }
+  .card {
+    display: flex;
+    background: linear-gradient(to bottom right, #0077FF, #FFA500);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+   h3 {
+    color:rgb(0, 42, 255);
+  }
+  
+  .hero-section {
+    background-image: url("https://images.unsplash.com/photo-1514782831304-632d84503f6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 80px 0;
+    }
+
+    .hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    }
+
+    .hero-section p {
+    font-size: 24px;
+    margin-bottom: 50px;
+    }
+
+    .hero-section .btn {
+    font-size: 20px;
+    font-weight: bold;
+    }
+    .btn-lg {
+      font-size: 24px;
+      padding: 12px 30px;
+      width: 1050px;
+      margin: auto;
+      align-items: center;
+    }
+    .container{
+      background-image:url("https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80");
+
+    }
+    .title{
+      color:#ff6600;
+      padding-left: 40px;
+    }
+    #goalsList li h3::before {
+      content: "\2713";
+      margin-right: 10px;
+      color: #ff8533;
+    }
+    

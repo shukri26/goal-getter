@@ -1,4 +1,3 @@
-# goal-getter
 Task Manager Web App
 Author
 Moh'd S.
@@ -20,17 +19,3 @@ Add functionality to allow users to delete tasks. When the user clicks on a "del
 
 Testing the App
 Test the app to make sure it works as expected. You can use a tool like json-server to serve the db.json file and test the app locally.
-
-Cloning the Repo
-To clone the repo, run the following command in your terminal: Replace <username> and <repo-name> with your GitHub username and the name of the repo you want to clone.
-
-Setting Up on VS Code
-To set up the project on VS Code, follow these steps:
-
-Open VS Code.
-Click on "File" in the top menu.
-Click on "Open Folder" and select the folder where you cloned the repo.
-Install the "Live Server" extension in VS Code.
-Right-click on the "index.html" file and select "Open with Live Server".
-License
-This project is licensed under the terms of the MIT license.
